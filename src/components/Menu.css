@@ -1,0 +1,62 @@
+/* Menu Content */
+ion-menu {
+    width: 60%; /* Définissez la largeur du menu selon vos préférences */
+    /* background-color: #3880ff; */
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+ion-menu ion-toolbar {
+    /* background-color: #3880ff; Couleur de fond du menu header */
+    color:  #f10e0e; /* Couleur du texte du menu header */
+    width: 85%;
+}
+
+/* ion-content {
+    width: 60%;
+} */
+
+.ion-padding {
+    width: 100%;
+}
+
+ion-menu ion-content {
+    background-color: #a52222; /* Couleur de fond du menu content */
+    color: #333333; /* Couleur du texte du menu content */
+    padding: 16px; /* Espacement interne du contenu du menu */
+}
+
+.custom-icon {
+    color: #f10e0e; 
+    font-size: 200%; 
+    margin-right: 5%;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content */
+ion-page ion-toolbar {
+    --background: #3880ff; /* Couleur de fond de la barre d'outils principale */
+    --color: #ffffff; /* Couleur du texte de la barre d'outils principale */
+}
+
+ion-page ion-content {
+    padding: 16px; /* Espacement interne du contenu principal */
+    background-color: #f4f4f4; /* Couleur de fond du contenu principal */
+    color: #333333; /* Couleur du texte du contenu principal */
+}
+  
